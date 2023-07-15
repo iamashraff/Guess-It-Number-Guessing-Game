@@ -1,0 +1,1 @@
+python -m PyInstaller --add-data "azure.tcl;." --add-data "sound/*;sound/" --add-data "playimg/*;playimg/" --add-data "images/*;images/" --add-data "dispimg/*;dispimg/" --add-data "assets/*;assets/" --add-data "score.txt;." --add-data "icon.ico;." --icon=icon.ico main.py --windowed
